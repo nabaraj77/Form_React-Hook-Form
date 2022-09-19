@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(2, 0, 36);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form-heading {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  padding-bottom: 9px;
+  padding-top: 5px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.field-content {
+  margin-left: 3.5rem;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-top: 5px;
+  font-weight: bold;
+}
+input {
+  width: 90%;
+  margin-top: 5px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.gender {
+  display: flex;
+}
+.gender input {
+  max-width: 50px;
+}
+select {
+  max-width: 300px;
+}
+.course {
+  margin-top: 10px;
+  max-width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+button {
+  height: 30px;
+  width: 60px;
+}
+span {
+  color: red;
+}
